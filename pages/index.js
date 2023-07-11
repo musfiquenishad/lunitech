@@ -12,7 +12,7 @@ const Home = () => {
           <header className="mb-8 flex items-center justify-between py-4 md:mb-12 md:py-8 xl:mb-16">
             {/* Logo*/}
             <Link href="/">
-              <Image className="h-14 w-auto" src={logo} />
+              <Image className="h-14 w-auto" src={logo} alt="Logo" />
             </Link>
             {/* Navbar Start */}
             <nav className="hidden gap-12 lg:flex">
@@ -100,7 +100,7 @@ const Home = () => {
               <Image
                 src={heroImage}
                 loading="lazy"
-                alt="Photo by Fakurian Design"
+                alt="Hero"
                 className="h-full w-full object-cover object-center"
               />
             </div>

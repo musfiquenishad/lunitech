@@ -11,7 +11,7 @@ function about() {
           <header className="mb-8 flex items-center justify-between py-4 md:mb-12 md:py-8 xl:mb-16">
             {/* Logo*/}
             <Link href="/">
-              <Image className="h-14 w-auto" src={logo} />
+              <Image className="h-14 w-auto" src={logo} alt="Lunitech Logo" />
             </Link>
 
             {/* Navbar Start */}
