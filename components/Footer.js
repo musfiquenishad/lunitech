@@ -18,7 +18,8 @@ function Footer() {
               </Link>
 
               <p className="max-w-sm mt-2 text-gray-500 dark:text-gray-400">
-                Lunitech is a globally recognized technology startup
+                Lunitech is a leading technology startup offering exceptional
+                website, web application, and software solutions.
               </p>
 
               <div className="flex mt-6 -mx-2">
@@ -149,7 +150,7 @@ function Footer() {
                   Contact
                 </h3>
                 <span className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
-                  +1 526 654 8965
+                  +61 450 378 423
                 </span>
                 <span className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
                   info@lunitech.co
