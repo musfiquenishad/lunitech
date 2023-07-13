@@ -8,15 +8,16 @@ function Footer() {
       <div className="container p-16 sm:px-36 mx-auto">
         <div className="lg:flex">
           <div className="w-full mx-0 lg:w-2/5">
-            <div className="px-0">
-              <Link href="/">
-                <Image
-                  className="w-auto h-7 text-white text-lg font-semibold"
-                  src={logoLight}
-                  alt="Lunitech"
-                />
-              </Link>
-
+            <div className="px-0 ">
+              <div>
+                <Link href="/">
+                  <Image
+                    className="w-auto h-7 text-white text-lg font-semibold"
+                    src={logoLight}
+                    alt="Lunitech"
+                  />
+                </Link>
+              </div>
               <p className="max-w-sm mt-2 text-gray-500 dark:text-gray-400">
                 Lunitech is a leading technology startup offering exceptional
                 website, web application, and software solutions.

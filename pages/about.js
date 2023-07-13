@@ -35,10 +35,15 @@ function about() {
             fill="url(#83fd4e5a-9d52-42fc-97b6-718e5d7ee527)"
           />
         </svg>
-        <div class="mx-auto max-w-screen-md px-4 md:px-8">
-          <h1 class="mb-4 text-center text-2xl font-bold text-gray-800 sm:text-3xl md:mb-6">
-            ABOUT US
-          </h1>
+        <div class="mx-auto max-w-screen-md px-4 md:px-8 mb-16">
+          <div className="text-center mt-12 mb-20">
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+              About us
+            </h2>
+            <p className="mt-4 text-lg leading-6 text-gray-500">
+              Know more about our company, team, and our work enviornment.
+            </p>
+          </div>
 
           <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
             Lunitech is a leading technology startup offering exceptional
