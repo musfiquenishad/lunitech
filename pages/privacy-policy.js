@@ -1,9 +1,19 @@
 import React from "react";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import Head from "next/head";
+
 function privacyPolicy() {
   return (
     <div>
+      <Head>
+        <title>Privacy Policy - Lunitech</title>
+        <meta
+          property="og:title"
+          content="Privacy Policy - Lunitech"
+          key="title"
+        />
+      </Head>
       <Header />
       <div class="relative isolate bg-white py-10 sm:py-30">
         <svg

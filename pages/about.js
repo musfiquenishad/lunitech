@@ -1,11 +1,16 @@
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import Head from "next/head";
 
 function about() {
   return (
     <div>
+      <Head>
+        <title>About Us - Lunitech</title>
+        <meta property="og:title" content="About Us - Lunitech" key="title" />
+      </Head>
       <Header />
-      <div class="relative isolate bg-white py-10 sm:py-30">
+      <div className="relative isolate bg-white py-10 sm:py-30">
         <svg
           className="absolute inset-0 -z-10 h-full w-full stroke-gray-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
           aria-hidden="true"
@@ -35,7 +40,7 @@ function about() {
             fill="url(#83fd4e5a-9d52-42fc-97b6-718e5d7ee527)"
           />
         </svg>
-        <div class="mx-auto max-w-screen-md px-4 md:px-8 mb-16">
+        <div className="mx-auto max-w-screen-md px-4 md:px-8 mb-16">
           <div className="text-center mt-12 mb-20">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               About us
@@ -45,27 +50,42 @@ function about() {
             </p>
           </div>
 
-          <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-            Lunitech is a leading technology startup offering exceptional
-            website, web application, and software solutions. We empower
-            businesses globally to embrace digital transformation through
-            innovative and tailored services.
+          <p className="mb-6 text-gray-500 sm:text-lg md:mb-8">
+            Luni Tech is an app developing company we publish wide range of
+            powerful and intuitive apps tailored to simplify peoples Life and
+            boost productivity. now write a small description about this company
           </p>
 
-          <blockquote class="mb-6 border-l-4 pl-4 italic text-gray-500 sm:text-lg md:mb-8 md:pl-6">
-            “From desktop applications to mobile apps and enterprise-level
-            software, we bring your ideas to life.”
+          <blockquote className="mb-6 border-l-4 pl-4 italic text-gray-500 sm:text-lg md:mb-8 md:pl-6">
+            “A pioneering app development company dedicated to enhancing lives
+            and productivity through cutting-edge software solutions.”
           </blockquote>
 
-          <p class="text-gray-500 sm:text-lg">
-            With a focus on quality, we follow rigorous testing methodologies to
-            ensure our deliverables exceed expectations. As your partner in
-            digital innovation, we provide customized solutions aligned with
-            your business objectives.
+          <p className="text-gray-500 sm:text-lg">
+            Our portfolio spans across various domains, from task management and
+            communication to health and wellness, ensuring that there is a Luni
+            Labs app to meet every individuals unique requirements. We believe
+            that by harnessing the potential of technology, we can create tools
+            that not only simplify intricate processes but also foster a more
+            balanced and efficient lifestyle.
           </p>
-          <p class="text-gray-500 sm:text-lg">
-            Contact us to embark on a transformative journey with LuniTech and
-            achieve remarkable success in the digital landscape.
+          <br />
+          <p className="text-gray-500 sm:text-lg">
+            Innovation is the heartbeat of our company. Our dedicated team of
+            skilled developers, designers, and visionaries work tirelessly to
+            conceptualize, create, and refine our apps, staying ahead of the
+            curve in an ever-evolving digital landscape. Each app is
+            meticulously crafted with the end user in mind, providing you with
+            an experience that seamlessly integrates into your daily routine.
+          </p>
+          <br />
+          <p className="text-gray-500 sm:text-lg">
+            Join us in embracing the future of productivity and convenience.
+            Experience the transformative power of Luni Labs apps as we continue
+            to redefine how technology can be a force for good in simplifying
+            lives and amplifying achievements. Discover a world where innovation
+            meets intuition, and efficiency becomes second nature. Luni Labs -
+            Empowering Simplicity, Enhancing Lives.
           </p>
           <br />
         </div>
