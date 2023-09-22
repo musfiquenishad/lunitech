@@ -53,7 +53,7 @@ function about() {
           <p className="mb-6 text-gray-500 sm:text-lg md:mb-8">
             Luni Tech is an app developing company we publish wide range of
             powerful and intuitive apps tailored to simplify peoples Life and
-            boost productivity. now write a small description about this company
+            boost productivity.
           </p>
 
           <blockquote className="mb-6 border-l-4 pl-4 italic text-gray-500 sm:text-lg md:mb-8 md:pl-6">
